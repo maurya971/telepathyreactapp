@@ -86,7 +86,7 @@ class Center extends Component {
 				<div className="box box-primary">
 	            	<div className="row">
 					     <div className="col-md-10">
-					        <textarea className="form-control" name="tweetMsg" placeholder="What you think!" onChange={this.tewwtMessageCinaged} value={this.tweetMessage}></textarea>
+					        <textarea className="form-control" name="tweetMsg" placeholder="What you think!" onChange={this.tewwtMessageCinaged} defaultValue={this.tweetMessage}></textarea>
 					      </div>
 					      <div className="col-md-2">
 					        <button type="submit" name="tweet" className="btn btn-primary btn-block btn-flat" onClick={this.postTweet.bind(this)}>Tweet</button>
